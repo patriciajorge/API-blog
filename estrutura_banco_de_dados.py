@@ -14,7 +14,8 @@ app = Flask(__name__)
 
 # Criar uma instância de SQLAlchemy
 app.config['SECRET_KEY'] = 'PATY@123' # gerar acesso de autenticação
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + db_path # localização do banco de dados
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres.igzpznoqkyinbneistkl:3l8f5cIHWHw1SqNT@aws-0-us-east-1.pooler.supabase.com:6543/postgres'
+ # localização do banco de dados
 
 db = SQLAlchemy(app)
 db:SQLAlchemy
