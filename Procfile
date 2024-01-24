@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: gunicorn -b :7777 app:app
