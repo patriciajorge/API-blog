@@ -1,13 +1,6 @@
 # SQLAlchemy
 from flask import Flask # Criar um API flask
 from flask_sqlalchemy import SQLAlchemy # Criar banco de dados
-import os
-
-# Caminho absoluto para o diretório do script
-script_dir = os.path.dirname(os.path.abspath(__file__))
-
-# Caminho absoluto para o banco de dados no mesmo diretório que o script
-db_path = os.path.join(script_dir, 'blog.db')
 
 # Criar um API flask
 app = Flask(__name__)
