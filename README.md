@@ -42,4 +42,4 @@ pip install -r requirements.txt
 Execução do Servidor:
 python main.py
 
-O servidor Flask será executado localmente na porta 7777 por padrão.
+O servidor Flask será executado localmente na porta 5000 por padrão.
