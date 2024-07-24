@@ -2,9 +2,9 @@
 
 API de Blog em Flask
 
-Este projeto é uma API de Blog desenvolvida em Flask, oferecendo funcionalidades básicas para o gerenciamento de autores e postagens. A API é construída com o intuito de fornecer uma estrutura sólida que pode ser expandida conforme necessário para atender aos requisitos específicos do seu projeto.
+Este projeto é uma API de Blog desenvolvida em Flask, oferecendo funcionalidades básicas para o gerenciamento de autores e postagens. A API é construída com o intuito de fornecer uma estrutura sólida que pode ser expandida conforme necessário para atender aos requisitos específicos do projeto.
 
-Funcionalidades Principais
+# Funcionalidades Principais
 
 Cadastro de Autores:
 
@@ -34,12 +34,16 @@ Operações de Edição e Exclusão:
 * Facilita a edição de informações relacionadas a autores, como nome, e-mail e senha.
 * Oferece a capacidade de excluir autores do sistema.
 
-Como Executar
+# Como Executar
 
-Instalação de Dependências:
+* Instalação de Dependências:
+```bash
 pip install -r requirements.txt
+```
 
-Execução do Servidor:
-python main.py
+* Execução do Servidor:
+```bash
+python app.py
+```
 
 O servidor Flask será executado localmente na porta 5000 por padrão.
