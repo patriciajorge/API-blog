@@ -34,6 +34,10 @@ Operações de Edição e Exclusão:
 * Facilita a edição de informações relacionadas a autores, como nome, e-mail e senha.
 * Oferece a capacidade de excluir autores do sistema.
 
+# Requisitos
+
+* Python 3.x
+
 # Como Executar
 
 * Instalação de Dependências:
